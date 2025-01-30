@@ -13,8 +13,8 @@
     <p>{{ $emp->bio }}</p>
   </div>
   <div class="bg-gray-300 p-4 my-2 rounded">
-    
-    <h3 class='text-center text-white'>Project</h3>
+
+    <h3 class='text-center text-red-400'>Project</h3>
     <p>{{ $emp->project->name }}</p>
     <p>{{ $emp->project->description }}</p>
     <p>Skills passed: {{ $emp->project->skill_reqd <= $emp->skill ? "yes":"no" }}</p>
